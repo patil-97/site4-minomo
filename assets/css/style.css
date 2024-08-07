@@ -138,3 +138,12 @@ p{
  .footerSec a i{
     color:#616161;
  }
+
+ .effect{
+    transition:all 0.2s linear;
+ }
+
+ .effect:hover{
+    transform:scale(1.1);
+    box-shadow:0 0 0 10px #626262;
+ }
